@@ -7,11 +7,6 @@ class Main {
 		int count = 0;
 		do{
 			n = sc.nextInt();
-			// if(n%2==0){
-			// 	System.out.println(n);
-			// }else{
-			// 	System.out.println(n);
-			// }
 			count++;
 		}while(n%2==0);
 		System.out.println(count);
