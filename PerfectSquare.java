@@ -7,10 +7,10 @@ public class PerfectSquare{
 		double root = (int)Math.sqrt(i);
 
 		if((root*root)==i){
-		    System.out.println(i + " is a perfect number");
+		    System.out.println(i + " is a perfect square");
 		}
 	    else{
-	        System.out.println(i + " is not a perfect number");
+	        System.out.println(i + " is not a perfect square");
 	    }
 	}
 }
