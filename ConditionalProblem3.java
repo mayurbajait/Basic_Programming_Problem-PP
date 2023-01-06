@@ -16,7 +16,7 @@ Return the output as per instruction in the input.
 
 import java.util.*;
 
-public class Main {
+public class ConditionalProblem3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
