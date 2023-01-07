@@ -9,7 +9,7 @@ He is asking for your help to solve this problem. Help Ninja to find the answer 
 
 import java.util.*;
 
-public class Main{
+public class PowerofNumber{
   public static void main (String args[]){
     Scanner sc = new Scanner (System.in);
     int x = sc.nextInt ();
