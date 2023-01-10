@@ -9,8 +9,23 @@ Output Format
 Return the sum as a single integer.
 */
 
+//for loop will runs n/2 times
 import java.util.*;
+public class EvenSum {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n= sc.nextInt();
+		long count = 0;
+		for(long i = 0; i <= n; i = i + 2){
+		    count = i+count;
+			
+		}
+		System.out.println(count);
+    }
+}
 
+//for loop will runs n times
+import java.util.*;
 public class EvenSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
