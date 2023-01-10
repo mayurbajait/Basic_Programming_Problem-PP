@@ -5,7 +5,7 @@ class Main {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int count = 1;
-		while(n%2==0){
+		while(n%2!=0){
 			n = sc.nextInt();
 			count++;
 		}
