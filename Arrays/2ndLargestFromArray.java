@@ -26,22 +26,22 @@ Explanation
 
 
 */
-
 import java.io.*;
 import java.util.*;
 
 
-public class Main {
+public class 2ndLargestFromArray {
     public static void SecondLargest(int[] arr, int n) {
-		int fmx = arr[0];
+		int fmx = Integer.MIN_VALUE, idx = -1;
 		for(int i = 0; i < arr.length; i++){
 			if(arr[i] > fmx){
 				fmx = arr[i];
+				idx = i;
 			}
 		}
 		int smx = Integer.MIN_VALUE;
 		for(int i = 0; i < arr.length; i++){
-			if(arr[i] > smx && arr[i] < fmx){
+			if(arr[i] > smx   && idx != i) {
 				smx = arr[i];
 			}
 		}
