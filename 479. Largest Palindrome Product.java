@@ -13,7 +13,6 @@ class Solution {
         if (cand % j == 0)
           return (int) (cand % kMod);
     }
-
     throw new IllegalArgumentException();
     }
 }
